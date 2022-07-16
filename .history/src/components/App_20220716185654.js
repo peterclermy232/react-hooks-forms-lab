@@ -11,9 +11,7 @@ function App() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
   }
 
-  function handleItemFormSubmit(newItem) {
-    setItems([...items, newItem]);
-  }
+  
 
   return (
     <div className={"App " + (isDarkMode ? "dark" : "light")}>
