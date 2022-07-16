@@ -2,8 +2,8 @@ import React from "react";
 
 function Filter({ search, onSearchChange, onCategoryChange }) {
   function handleSearchChange(event) {
-
-
+    
+    
     onSearchChange(event.target.value);
   }
 
